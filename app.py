@@ -3,11 +3,11 @@ import os
 
 from dotenv import load_dotenv
 from pathlib import Path
-
 load_dotenv(dotenv_path=Path(__file__).parent / ".env")
 
 
-print("DEBUG GOOGLE_API_KEY =", os.getenv("GOOGLE_API_KEY"))
+
+
 
 import streamlit as st
 from pathlib import Path
